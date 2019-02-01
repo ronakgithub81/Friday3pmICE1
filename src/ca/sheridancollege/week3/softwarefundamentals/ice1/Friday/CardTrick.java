@@ -15,7 +15,7 @@ public class CardTrick {
         
         card1.setSuit("Spades");
         
-        System.out.println("suit: " + card1.getSuit() + " value: " + getValue);
+        System.out.println("suit: " + card1.getSuit() + " value: " + getValue());
     }
     
 }
