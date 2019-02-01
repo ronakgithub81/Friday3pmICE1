@@ -15,8 +15,10 @@ public class CardTrick {
        c1.setSuit("hearts");
        c1.setValue(3);
         
-        System.out.println(getValue() + "_"+ getSuit());
+        System.out.println(c1.getValue() + "_"+ c1.getSuit());
        
+        Card c2=new Card();
+        
     }
     
 }
