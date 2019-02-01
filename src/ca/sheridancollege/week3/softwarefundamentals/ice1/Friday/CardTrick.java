@@ -10,6 +10,8 @@ public class CardTrick {
     {
          Card card = new Card();
         System.out.println(card.getSuit());
+        
+        Card card2 = new Card();
     }
     
 }
