@@ -12,6 +12,10 @@ public class CardTrick {
     {
         
        Card trick = new Card();
+        trick.setSuit("Hearts");
+        trick.setValue(9);
+        System.out.println(trick.getSuit());
+         System.out.println(trick.getValue());
     }
     
 }
