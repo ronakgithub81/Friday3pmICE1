@@ -12,6 +12,8 @@ public class CardTrick {
         red.setSuit("hearts");
         red.setValue(8);
         System.out.print(red.getSuit() + "\n" + red.getValue());
+        
+        Card black = new Card();
     }
     
 }
