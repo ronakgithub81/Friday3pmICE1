@@ -9,6 +9,9 @@ public class CardTrick {
     public static void main(String[] args)
     {
        Card red = new Card();
+        red.setSuit("hearts");
+        red.setValue(8);
+        System.out.print(red.getSuit() + "\n" + red.getValue());
     }
     
 }
