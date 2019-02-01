@@ -1,7 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/* Shannon McGuff 
+//ID: 991516126
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
@@ -13,6 +11,10 @@ public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
+   
+   public Card (String suit, int value) {
+       
+   }
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
@@ -41,6 +43,7 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
+        
     }
    
    
