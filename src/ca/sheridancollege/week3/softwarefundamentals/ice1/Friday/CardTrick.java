@@ -11,7 +11,14 @@ public class CardTrick {
     {
        Card c1;
         c1 = new Card();
-        System.out.println(c1);
+        c1.setSuit("Clubs");
+        c1.setValue(6);
+          System.out.println("the card c1 is the:"+c1.getSuit()+c1.getValue());
+        
+       Card c2= new Card();
+       c2.setSuit("Clubs");
+       c2.setValue(8);
+        System.out.println("the card c2 is the:"+c1.getSuit()+c2.getValue());
     }
     
 }
