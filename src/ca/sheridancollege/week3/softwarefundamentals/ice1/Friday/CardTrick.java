@@ -10,6 +10,7 @@ public class CardTrick {
     public static void main(String[] args)
     {
        Card newCard = new Card("Spades", 7);
+       Card newCard2 = new Card("Hearts", 10);
        
      System.out.println("Card is " + newCard.getValue() + " of " + newCard.getSuit());
 
