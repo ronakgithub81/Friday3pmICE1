@@ -12,6 +12,7 @@ public class CardTrick {
         Card card1 = new Card();
         
         
+        
        
     }
     
