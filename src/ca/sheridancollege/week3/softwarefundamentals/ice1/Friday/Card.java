@@ -7,7 +7,8 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
 /**
  *
- * @author Ronak
+ * @author Rishabh
+ * 991532818
  */
 public class Card {
 
