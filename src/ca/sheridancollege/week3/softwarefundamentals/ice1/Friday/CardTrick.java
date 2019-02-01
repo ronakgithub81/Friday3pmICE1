@@ -12,6 +12,8 @@ public class CardTrick {
     public static void main(String[] args)
     {
        Card c1=new Card();
+       c1.setSuit("hearts");
+       c1.setValue(3);
        
     }
     
