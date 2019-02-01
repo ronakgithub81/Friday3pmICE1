@@ -16,6 +16,7 @@ public class CardTrick {
         trick.setValue(9);
         System.out.println(trick.getSuit());
          System.out.println(trick.getValue());
+         Card tricky = new Card();
     }
     
 }
