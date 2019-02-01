@@ -9,6 +9,8 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card myObj=new Card();
+        System.out.println(myObj.getSuit());
+        
     }
     
 }
