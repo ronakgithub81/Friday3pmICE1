@@ -13,7 +13,8 @@ public class Card {
    private int value;//1-13
    
    public Card (String suit, int value) {
-       
+       this.suit = suit;
+       this.value = value;
    }
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
