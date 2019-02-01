@@ -9,6 +9,10 @@ public class CardTrick {
 
     public static void main(String[] args) {
         Card C = new Card();
+        C.setSuit("clubs");
+        C.setValue(2);
+        System.out.println(C.getSuit());
+        System.out.println(C.getValue());
     }
 
 }
