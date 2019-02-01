@@ -10,6 +10,12 @@ public class CardTrick {
     public static void main(String[] args)
     {
        Card card = new Card();
+       
+       card.setSuit("Spades");
+       card.setValue(1);
+       
+       System.out.println("Your card is the " + card.getValue + " of " + card.getValue);
+        
     }
     
 }
