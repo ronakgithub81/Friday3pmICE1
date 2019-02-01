@@ -11,8 +11,8 @@ public class CardTrick {
     {
         Card newcard = new Card("clubs", 4);
         
-       System.out.println(newcard.getSuit()+newcard.getValue());
-       
+      
+      
     }
     
 }
