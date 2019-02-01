@@ -12,10 +12,10 @@ public class CardTrick {
         Card card1 = new Card();
         
         card1.setSuit("Diamond");
-        cardq.setValue(5);
+        card1.setValue(5);
         
         System.out.println("Suit: "+ card1.getSuit());
-        System.out.println("Value: "+ card.getValue());
+        System.out.println("Value: "+ card1.getValue());
        
     }
     
