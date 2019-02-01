@@ -11,6 +11,7 @@ public class CardTrick {
     {
        Card c1;
         c1 = new Card();
+        System.out.println(c1);
     }
     
 }
