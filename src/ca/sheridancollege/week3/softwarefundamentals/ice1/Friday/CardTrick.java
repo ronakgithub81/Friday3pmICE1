@@ -9,7 +9,13 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 public class CardTrick {
     public static void main(String[] args)
     {
-       Card card1 = new Card();
+        Card card1 = new Card();
+        
+        card1.setValue(7);
+        
+        card1.setSuit("Spades");
+        
+        System.out.println("suit: " + card1.getSuit() + " value: " + getValue);
     }
     
 }
