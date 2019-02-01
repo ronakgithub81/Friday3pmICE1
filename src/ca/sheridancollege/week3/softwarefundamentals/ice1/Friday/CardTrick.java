@@ -14,6 +14,7 @@ public class CardTrick {
         System.out.printf("Suit is: %s, and Value is: %s" ,card1.getSuit(), card1.getValue());
         System.out.printf("Suit is: %s, and Value is: %s" ,card2.getSuit(), card2.getValue());  
         // new comment
+        // another comment 5:42pm
     }
     
     
