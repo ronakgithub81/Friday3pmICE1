@@ -11,6 +11,7 @@ public class CardTrick {
         Card myObj=new Card();
         System.out.println(myObj.getSuit());
         
+        Card myObj1= new Card();
     }
     
 }
